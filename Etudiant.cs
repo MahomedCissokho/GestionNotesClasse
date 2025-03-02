@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace GestionNotesClasse
 {
-    class Etudiant
+    public class Etudiant
     {
+        int nO { get; set; }
+        string nom { get; set; }
+        string prenom { get; set; }
+        double noteCC { get; set; }
+        double noteDevoir { get; set; }
+
     }
 }
